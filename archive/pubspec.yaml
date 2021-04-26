@@ -1,0 +1,31 @@
+name: work_schedule
+description: TODO work_schedule
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_local_notifications: ^5.0.0
+  flutter_native_timezone: ^1.0.0
+  intl: ^0.17.0
+  shared_preferences: ^2.0.5
+  sqflite: ^2.0.0+3
+  timezone: ^0.7.0-nullsafety.0
+  uuid: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Noto Sans CJK
+      fonts:
+        - asset: fonts/NotoSansCJK-Regular.ttc
